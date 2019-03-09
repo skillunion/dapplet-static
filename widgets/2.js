@@ -35,10 +35,11 @@
         return div.firstChild;
     },
 
-    _onWidgetButtonClick: function () {
-        this._pushTransactionCallback('2', {
-          title: 'test'
-        });
+    _onWidgetButtonClick: function (event) {
+        console.log('click', event.target.parentNode);
+//         this._pushTransactionCallback('2', {
+//           title: 'test'
+//         });
     },
 
     init: function (doc, pushTransactionCallback) {
