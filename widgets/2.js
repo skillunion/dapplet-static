@@ -22,8 +22,8 @@
         var me = this,
             widget = me._createElementFromHTML(html);
 
-        widget.addEventListener("click", function () {
-            me._onWidgetButtonClick.call(me);
+        widget.addEventListener("click", function (event) {
+            me._onWidgetButtonClick.call(me, event);
         });
 
         node.appendChild(widget);
