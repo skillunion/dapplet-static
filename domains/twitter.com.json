@@ -1,7 +1,7 @@
 {
-  "injectors": [
+  "widgets": [
     {
-      "url": "https://skillunion.github.io/dapplet-static/injectors/1.js"
+      "url": "https://skillunion.github.io/dapplet-static/widgets/1.js"
     }
   ]
 }
