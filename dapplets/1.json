@@ -1,5 +1,5 @@
 {
-  "template": "<img src=\"{{authorImg}}\"/><div>{{id}}</div><div>{{text}}</div><div>— {{authorFullname}} ({{authorUsername}})</div>",
+  "template": "<div style=\"margin-bottom: 16px;\"><img style=\"float:left;\" src=\"{{authorImg}}\"/><div><b>{{authorFullname}}</b></div><div style=\"font-size:smaller;\">{{authorUsername}}</div></div><div>{{text}}</div>",
   "to": "0xccf7930d9b1fa67d101e3de18de5416dc66bd852",
   "function": "function storeTweetHash(uint tweetId, uint tweetHash)",
   "mapping": {
