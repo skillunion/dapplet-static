@@ -5,5 +5,8 @@
   "mapping": {
     "tweetId": "id",
     "tweetHash": "sha256(text)"
-  }
+  },
+  "abi": [
+      {"constant":false,"inputs":[{"name":"tweetId","type":"uint256"},{"name":"tweetHash","type":"uint256"}],"name":"storeTweetHash","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"anonymous":false,"inputs":[{"indexed":false,"name":"storedBy","type":"address"},{"indexed":false,"name":"tweetId","type":"uint256"}]}
+    ]
 }
